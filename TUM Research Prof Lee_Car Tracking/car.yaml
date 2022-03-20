@@ -1,0 +1,10 @@
+# train and val datasets (image directory or *.txt file with image paths)
+#train: /content/drive/MyDrive/TUM/assigenment2/car-object-detection/data/training_images
+#val: /content/drive/MyDrive/TUM/assigenment2/car-object-detection/data/training_images
+
+train: /content/tmp/convertor/fold0/images/train2017/
+val: /content/tmp/convertor/fold0/images/val2017/
+
+# Classes
+nc: 1  # number of classes
+names: ['car']  # class names
