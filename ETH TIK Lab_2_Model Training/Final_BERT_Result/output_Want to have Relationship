@@ -1,0 +1,35 @@
+Before processing:
+在 answer 列中总共有 0 个空值.
+
+
+After processing:
+在 answer 列中总共有 0 个空值.
+
+
+
+
+There are 1 GPU(s) available.
+We will use the GPU: TITAN Xp
+Loading BERT tokenizer...
+0.2 split
+1351 lines of training data,
+338 lines of test data
+====================
+train losses: [0.6985580125142209, 0.6427676732656527, 0.5366628000939819]
+test losses: [tensor(1.0434, device='cuda:0'), tensor(0.9557, device='cuda:0'), tensor(0.9355, device='cuda:0')]
+====================
+====================
+EVALUATION
+TOPIC: 想要认识对方
+MCC: 0.392
+ROC_AUC: 0.649
+F1: 0.894
+              precision    recall  f1-score   support
+
+           0       0.68      0.34      0.45        73
+           1       0.84      0.95      0.89       265
+
+    accuracy                           0.82       338
+   macro avg       0.76      0.65      0.67       338
+weighted avg       0.80      0.82      0.80       338
+

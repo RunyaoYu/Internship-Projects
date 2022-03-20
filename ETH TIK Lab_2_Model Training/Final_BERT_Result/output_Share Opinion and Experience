@@ -1,0 +1,37 @@
+Before processing:
+在 answer 列中总共有 0 个空值.
+
+
+After processing:
+在 answer 列中总共有 0 个空值.
+
+
+
+
+There are 1 GPU(s) available.
+We will use the GPU: GeForce RTX 2080 Ti
+Loading BERT tokenizer...
+0.2 split
+2315 lines of training data,
+579 lines of test data
+====================
+train losses: [0.6227318596825183, 0.47271294516870505, 0.36329192610049926, 0.27285003152931414, 0.2188501433176503]
+test losses: [tensor(0.5408, device='cuda:0'), tensor(0.5051, device='cuda:0'), tensor(0.4371, device='cuda:0'), tensor(0.4631, device='cuda:0'), tensor(0.4735, device='cuda:0')]
+====================
+====================
+EVALUATION
+TOPIC: 表达情感见解看法，分享过往经历
+MCC: 0.866
+ROC_AUC: 0.930
+F1: 0.939
+              precision    recall  f1-score   support
+
+           0       0.96      0.90      0.93       270
+           1       0.91      0.96      0.94       309
+
+    accuracy                           0.93       579
+   macro avg       0.94      0.93      0.93       579
+weighted avg       0.93      0.93      0.93       579
+
+./Expressing_model_save/
+Saving model to ./Expressing_model_save/

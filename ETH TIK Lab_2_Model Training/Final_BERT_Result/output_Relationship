@@ -1,0 +1,37 @@
+Before processing:
+在 answer 列中总共有 0 个空值.
+
+
+After processing:
+在 answer 列中总共有 0 个空值.
+
+
+
+
+There are 1 GPU(s) available.
+We will use the GPU: TITAN Xp
+Loading BERT tokenizer...
+0.2 split
+1684 lines of training data,
+422 lines of test data
+====================
+train losses: [0.9657671682357616, 0.894653328482255, 0.7923161125100219]
+test losses: [tensor(1.2686, device='cuda:0'), tensor(1.1408, device='cuda:0'), tensor(1.0213, device='cuda:0')]
+====================
+====================
+EVALUATION
+TOPIC: 情感恋爱
+MCC: 0.600
+ROC_AUC: 0.773
+F1: 0.841
+              precision    recall  f1-score   support
+
+           0       0.91      0.59      0.72       184
+           1       0.75      0.95      0.84       238
+
+    accuracy                           0.80       422
+   macro avg       0.83      0.77      0.78       422
+weighted avg       0.82      0.80      0.79       422
+
+./Relationship_model_save/
+Saving model to ./Relationship_model_save/
